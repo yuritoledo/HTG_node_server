@@ -1,0 +1,8 @@
+#endpoint: ''
+endpoint: https://us1.prisma.sh/yuri-toledo-4a364d/hackernews-node/dev
+
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
